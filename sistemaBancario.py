@@ -12,7 +12,7 @@ saldo = float(0)
 #Variaveis Deposito
 deposito = float(0)
 while opcao != 0: 
-    opcao = int(input("[1] Para sacar \n [2] Para depositar \n [3] Para extrato \n [0] Para sair \n :"))
+    opcao = int(input(" [1] Para sacar \n [2] Para depositar \n [3] Para extrato \n [0] Para sair \n :"))
     #Opção de Saque
     if opcao == 1 :
       saque = float(input("Digite o valor a ser sacado: "))                     
